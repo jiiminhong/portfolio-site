@@ -1,11 +1,11 @@
 import React from "react";
 
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
 
 const NavBar = () => {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" className="bg-white border-bottom">
+      <Navbar collapseOnSelect expand="lg" className="bg-white">
         <Container>
           <Navbar.Brand href="/">HongJimin portfolio-site</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
