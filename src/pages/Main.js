@@ -23,8 +23,8 @@ const Main = () => {
               <p className="font-bold text-5xl">개발자 홍지민입니다</p>
             </div>
 
-            <div className="main-contact w-full h-full flex justify-end items-center">
-              <div className="mx-2">
+            <div className="main-contact-wrap w-full h-full flex justify-end items-center">
+              <div className="main-contact mx-2">
                 <OverlayTrigger
                   placement="bottom"
                   delay={{ show: 250, hide: 400 }}
@@ -37,7 +37,7 @@ const Main = () => {
                   </Button>
                 </OverlayTrigger>
               </div>
-              <div className="mx-2">
+              <div className="main-contact mx-2">
                 <OverlayTrigger
                   placement="bottom"
                   delay={{ show: 250, hide: 400 }}
@@ -50,7 +50,7 @@ const Main = () => {
                   </Button>
                 </OverlayTrigger>
               </div>
-              <div className="mx-2">
+              <div className="main-contact mx-2">
                 <OverlayTrigger
                   placement="bottom"
                   delay={{ show: 250, hide: 400 }}
