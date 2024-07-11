@@ -7,13 +7,33 @@ const NavBar = () => {
     <div>
       <Navbar collapseOnSelect expand="lg" className="bg-white">
         <Container>
-          <Navbar.Brand href="/">HongJimin portfolio-site</Navbar.Brand>
+          <Navbar.Brand
+            href="/"
+            className="hover:text-[#1A8754] transition duration-500 hover:duration-500"
+          >
+            HongJimin portfolio-site
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="/tech">기술스택</Nav.Link>
-              <Nav.Link href="/project">프로젝트</Nav.Link>
-              <Nav.Link href="/edu">교육 및 자격증</Nav.Link>
+              <Nav.Link
+                href="/tech"
+                className="hover:text-[#1A8754] transition duration-500 hover:duration-500"
+              >
+                기술스택
+              </Nav.Link>
+              <Nav.Link
+                href="/project"
+                className="hover:text-[#1A8754] transition duration-500 hover:duration-500"
+              >
+                프로젝트
+              </Nav.Link>
+              <Nav.Link
+                href="/education"
+                className="hover:text-[#1A8754] transition duration-500 hover:duration-500"
+              >
+                교육
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

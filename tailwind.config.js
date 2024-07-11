@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        128: "48rem",
+        48: "48rem",
+        "btn-green": "#1A8754",
       },
     },
   },
